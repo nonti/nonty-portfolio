@@ -145,7 +145,7 @@ export const BIO = [
   "Nontombi Mbowane studied information technology at the Jeppe College of Commerce and Computer studies,from which she graduated in 2009. Following her education, ",
   "she is a resilient and versatile professional with a strong foundation in software development, technical support, and education assistance. With qualifications in Electrical Engineering and Information Technology, they have consistently demonstrated adaptability and determination to grow in their career.",
   "After facing health challenges that temporarily paused their professional journey, she joined a coding bootcamp to bridge the gap, gaining hands-on experience with modern tools and technologies like JavaScript, React, and Node.js, reaffirming their commitment to continuous learning and development.",
-  "Nontombi journey reflects a balance of technical expertise and a steadfast commitment to personal and professional growth, making them a reliable and resourceful contributor to any team."
+  "Nontombi's journey reflects a balance of technical expertise and a steadfast commitment to personal and professional growth, making them a reliable and resourceful contributor to any team."
  
 ];
 

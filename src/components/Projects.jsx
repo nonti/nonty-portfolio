@@ -1,17 +1,18 @@
 import { PROJECTS} from '../constants';
 import CallMadeIcon from '@mui/icons-material/CallMade';
 import {motion} from 'framer-motion';
+import { useState } from 'react';
+import ReactPaginate from 'react-paginate';
 const Projects = () => {
-  return (
-    <section className="pt-20" id="projects">
-      <motion.h2 
-        initial={{opacity: 0, y: -20}}
-        whileInView={{opacity: 1, y: 0}}
-        transition={{duration: 0.8}}
-        className="mb-8 text-center text-3xl lg:text-4xl">Projects</motion.h2>
-      <div className="grid grid-cols-2 gap-4 md:grid-cols-4 lg:grid-cols-4">
-        {PROJECTS.map((project) => (
-          <motion.div 
+  const [projects] = useState(PROJECTS.slice(0, 12));
+  const [pageNumber, setPageNumber] = useState(0);
+  const projectPerPage = 4;
+  const indexOfLastProject = pageNumber * projectPerPage;
+  
+  const displayProjects = projects.slice(indexOfLastProject, indexOfLastProject + projectPerPage).
+  map((project) => {
+    return (
+      <motion.div 
             initial={{opacity: 0, scale: -20}}
             whileInView={{opacity: 1, scale: 1}}
             transition={{duration: 0.5}}
@@ -38,7 +39,32 @@ const Projects = () => {
               </a>
             </motion.div>
           </motion.div>
-        ))}
+    )
+  });
+
+  const changePage =  ({selected}) =>{
+    setPageNumber(selected);
+  }
+  return (
+    <section className="pt-20" id="projects">
+      <motion.h2 
+        initial={{opacity: 0, y: -20}}
+        whileInView={{opacity: 1, y: 0}}
+        transition={{duration: 0.8}}
+        className="mb-8 text-center text-3xl lg:text-4xl">Projects</motion.h2>
+      <div className="grid grid-cols-2 gap-4 md:grid-cols-4 lg:grid-cols-4">
+        {displayProjects}
+        <ReactPaginate 
+          previousLabel={<span className='px-4 py-2 '>Previous</span>}
+          nextLabel={<span className='px-4 py-2'>Next</span>}
+          pageCount={Math.ceil(PROJECTS.length / projectPerPage)}
+          onPageChange={changePage}
+          containerClassName='paginationBtn'
+          previousLinkClassName='prevBtn'
+          nextLinkClassName='nextBtn'
+          activeClassName='activeBtn'
+          disabledClassName='paginationDisabled'
+        />
       </div>
     </section>
   )
