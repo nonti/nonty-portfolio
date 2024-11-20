@@ -1,5 +1,5 @@
 import { HERO } from "../constants"
-import nontyImg from '../assets/images/nonty.jpg';
+import nontyImg from '../assets/images/nonty.png';
 import { motion} from 'framer-motion'
 const Hero = () => {
   return (
