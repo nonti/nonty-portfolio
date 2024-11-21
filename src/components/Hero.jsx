@@ -1,5 +1,5 @@
 import { HERO } from "../constants"
-import nontyImg from '../assets/images/nonty.png';
+import nontyImg from '../assets/images/nontz.jpeg';
 import { motion} from 'framer-motion'
 const Hero = () => {
   return (
@@ -25,8 +25,10 @@ const Hero = () => {
             transition={{duration: 1}}
             src={nontyImg} 
             alt="Nonty" 
-            className="rounded-3xl" 
-            width={450} height={450} />
+            className="rounded-3xl"
+            height={450}
+            width={450} 
+           />
         </div>
       </motion.div>
     </section>
