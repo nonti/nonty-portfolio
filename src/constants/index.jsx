@@ -53,6 +53,7 @@ export const PROJECTS = [
       "A personal portfolio website built with React and Tailwind CSS to showcase my skills, projects, and contact information.",
     image: projectImage1,
     githubLink: "https://github.com/nonti/nonty-portfolio",
+    demoLink: ""
   },
   {
     id: 2,
@@ -61,22 +62,25 @@ export const PROJECTS = [
       "An e-commerce web application developed using Reactjs and Stripe for payment integration, featuring a comprehensive product catalog, shopping cart, and checkout system.",
     image: projectImage2,
     githubLink: "https://github.com/nonti/zaio-amazon-clone",
+    demoLink: ""
   },
   {
     id: 3,
     name: "Tic Tac Toe Game",
     description:
-      "Designed and built an engaging Tic Tac Toe game with an integrated music player using React, combining gameplay with an immersive user experience through background music and sound effects.v",
+      "Designed and built an engaging Tic Tac Toe game with an integrated music player using React , combining gameplay with an immersive user experience through background music and sound effects.v",
     image: projectImage3,
     githubLink: "https://github.com/nonti/tic-tac-toe-react",
+    demoLink: ""
   },
   {
     id: 4,
     name: "Accommodation Platform",
     description:
-      "A booking ",
+      "A booking application developed using ReactJS and Redux for state management, enabling users to book accommodations, view available properties, and manage bookings seamlessly.",
     image: projectImage4,
     githubLink: "https://github.com/nonti/zaio-airbnb-clone",
+    demoLink: ""
   },
   {
     id: 5,
@@ -85,6 +89,7 @@ export const PROJECTS = [
       "Developed a Google Keep clone application using ReactJS, enabling users to create, edit, delete, and organize notes with ease..",
     image: projectImage5,
     githubLink: "https://github.com/nonti/zaio-google-keep-dom-firebase",
+    demoLink: ""
   },
   {
     id: 6,
@@ -93,6 +98,7 @@ export const PROJECTS = [
       "A nodejs application using Typescript for backend services, including user authentication, Nodemailer  transport for emails and using MongoDB as a database.",
     image: projectImage6,
     githubLink: "https://github.com/nonti/nonty-nodejs-clone-app",
+    demoLink: ""
   },
   {
     id: 7,
@@ -101,35 +107,40 @@ export const PROJECTS = [
       "A nodejs application using Typescript for backend services, including user authentication, Nodemailer  transport for emails and using MongoDB as a database.",
     image: projectImage7,
     githubLink: "https://github.com/nonti/nonty-nodejs-clone-app",
+    demoLink: ""
   },
   {
     id: 8,
-    name: "Google Keep Appliction",
+    name: "Google Keep Application",
     description:
-      "Developed a Google Keep clone application using HTML, CSS and Javascript, enabling users to create, edit, delete, and organize notes with ease.",
+      "Developed a Google Keep clone application using HTML, CSS and Javascript which is dynamic, enabling users to create, edit, delete, and organize notes with ease.",
     image: projectImage8,
     githubLink: "https://github.com/nonti/nonty-nodejs-clone-app",
+    demoLink: ""
   },
   {
     id: 9,
     name: "Youtube Clone Application",
-    description:"A youtube clone with HTML and CSS",
+    description:"A youtube clone with HTML and CSS which is static webpage" ,
     image: projectImage9,
     githubLink: "https://github.com/nonti/zaio-youtube-clone",
+    demoLink: ""
   },
   {
     id: 10,
     name: "Netflix Clone Application",
-    description:"A netflix clone with HTML and CSS",
+    description:"A netflix clone with HTML and CSS which is static webpage",
     image: projectImage10,
     githubLink: "https://github.com/nonti/zaio-git-netflix",
+    demoLink: ""
   },
   {
     id: 11,
     name: "Tesla Clone Application",
-    description:"A Tesla clone with HTML and CSS",
+    description:"A Tesla clone with HTML and CSS which is static webpage",
     image: projectImage11,
     githubLink: "https://github.com/nonti/zaio-tesla",
+    demoLink: ""
   },
   {
     id: 12,
@@ -137,6 +148,7 @@ export const PROJECTS = [
     description:"An authentication S",
     image: projectImage12,
     githubLink: "https://github.com/nonti/auth-mern-app",
+    demoLink: ""
   },
   
 ];

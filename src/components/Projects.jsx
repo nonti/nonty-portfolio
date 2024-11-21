@@ -13,14 +13,14 @@ const Projects = () => {
   map((project) => {
     return (
       <motion.div 
-            initial={{opacity: 0, scale: -20}}
+            initial={{opacity: 0, scale: 0.9}}
             whileInView={{opacity: 1, scale: 1}}
             transition={{duration: 0.5}}
             whileHover={{scale: 1.05}}
             key={project.id} className='group relative overflow-hidden rounded-3xl'>
             <motion.img 
               whileInView={{scale: 1.1}}
-              src={project.image} alt={project.name} className='w-full object-cover 
+              src={project.image} alt={project.name} className='w-full h-full object-cover 
             transition-transform duration-500 group-hover:scale-110' />
             <motion.div 
               initial={{opacity: 0}}

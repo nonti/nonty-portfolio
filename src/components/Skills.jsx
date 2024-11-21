@@ -2,7 +2,7 @@ import { SKILLS } from "../constants"
 import { motion } from "framer-motion"
 const Skills = () => {
   const containerVariant = {
-    hidden: {opacity : 0, y:20},
+    hidden: {opacity : 0, y: 20},
     visible: {opacity: 1, y: 0,
     transition: { duration: 1, staggerChildren: 0.5 },
     }
