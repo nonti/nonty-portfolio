@@ -1,5 +1,6 @@
 import { PROJECTS} from '../constants';
 import CallMadeIcon from '@mui/icons-material/CallMade';
+import OndemandVideoIcon from '@mui/icons-material/OndemandVideo';
 import {motion} from 'framer-motion';
 import { useState } from 'react';
 import ReactPaginate from 'react-paginate';
@@ -31,12 +32,22 @@ const Projects = () => {
             backdrop-blur-lg transition-opacity duration-500 group-hover:opacity-100'>
               <h3 className='mb-2 text-xl'>{project.name}</h3>
               <p className='mb-12 p-4'>{project.description}</p>
+              <div className='flex justify-between gap-3'>
               <a href={project.githubLink} target='_blank' rel='noopener noreferrer' className='rounded-full bg-white px-4 py-2 text-black hover:bg-gray-300'> 
                 <div className='flex items-center '>
                   <span>View on GitHub </span>
                   <CallMadeIcon/>
                 </div>
               </a>
+              <a href={project.demoLink} target='_blank' rel='noopener noreferrer' className='rounded-full bg-white px-4 py-2 text-black hover:bg-gray-300'> 
+                <div className='flex items-center '>
+                  <span>Demo</span>
+                  <OndemandVideoIcon/>
+                </div>
+              </a>
+              </div>
+             
+             
             </motion.div>
           </motion.div>
     )

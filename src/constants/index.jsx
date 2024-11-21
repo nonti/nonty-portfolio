@@ -53,7 +53,7 @@ export const PROJECTS = [
       "A personal portfolio website built with React and Tailwind CSS to showcase my skills, projects, and contact information.",
     image: projectImage1,
     githubLink: "https://github.com/nonti/nonty-portfolio",
-    demoLink: ""
+    demoLink: "https://nonty-portfolio.netlify.app"
   },
   {
     id: 2,
@@ -71,7 +71,7 @@ export const PROJECTS = [
       "Designed and built an engaging Tic Tac Toe game with an integrated music player using React , combining gameplay with an immersive user experience through background music and sound effects.v",
     image: projectImage3,
     githubLink: "https://github.com/nonti/tic-tac-toe-react",
-    demoLink: ""
+    demoLink: "https://nonty-tic-tac-toe.netlify.app"
   },
   {
     id: 4,
@@ -89,7 +89,7 @@ export const PROJECTS = [
       "Developed a Google Keep clone application using ReactJS, enabling users to create, edit, delete, and organize notes with ease..",
     image: projectImage5,
     githubLink: "https://github.com/nonti/zaio-google-keep-dom-firebase",
-    demoLink: ""
+    demoLink: "https://zaio-google-keep-react.netlify.app"
   },
   {
     id: 6,
@@ -98,7 +98,7 @@ export const PROJECTS = [
       "A nodejs application using Typescript for backend services, including user authentication, Nodemailer  transport for emails and using MongoDB as a database.",
     image: projectImage6,
     githubLink: "https://github.com/nonti/nonty-nodejs-clone-app",
-    demoLink: ""
+    demoLink: "No demo available"
   },
   {
     id: 7,
@@ -107,7 +107,7 @@ export const PROJECTS = [
       "A nodejs application using Typescript for backend services, including user authentication, Nodemailer  transport for emails and using MongoDB as a database.",
     image: projectImage7,
     githubLink: "https://github.com/nonti/nonty-nodejs-clone-app",
-    demoLink: ""
+    demoLink: "No demo available"
   },
   {
     id: 8,
@@ -116,7 +116,7 @@ export const PROJECTS = [
       "Developed a Google Keep clone application using HTML, CSS and Javascript which is dynamic, enabling users to create, edit, delete, and organize notes with ease.",
     image: projectImage8,
     githubLink: "https://github.com/nonti/nonty-nodejs-clone-app",
-    demoLink: ""
+    demoLink: "https://zaio-html-css-google-keep-clone.netlify.app"
   },
   {
     id: 9,
@@ -124,7 +124,7 @@ export const PROJECTS = [
     description:"A youtube clone with HTML and CSS which is static webpage" ,
     image: projectImage9,
     githubLink: "https://github.com/nonti/zaio-youtube-clone",
-    demoLink: ""
+    demoLink: "https://zaio-streaming-youtube-services.netlify.app"
   },
   {
     id: 10,
@@ -132,7 +132,7 @@ export const PROJECTS = [
     description:"A netflix clone with HTML and CSS which is static webpage",
     image: projectImage10,
     githubLink: "https://github.com/nonti/zaio-git-netflix",
-    demoLink: ""
+    demoLink: "https://movieflix-zaio-platform-landing-page.netlify.app"
   },
   {
     id: 11,
@@ -140,15 +140,15 @@ export const PROJECTS = [
     description:"A Tesla clone with HTML and CSS which is static webpage",
     image: projectImage11,
     githubLink: "https://github.com/nonti/zaio-tesla",
-    demoLink: ""
+    demoLink: "https://nonty-zaio-tes-landing-page.netlify.app"
   },
   {
     id: 12,
-    name: "MERN Authentication Application",
-    description:"An authentication S",
+    name: "Twitter Clone Application",
+    description:"A Twitter clone with HTML and CSS which is static webpage",
     image: projectImage12,
-    githubLink: "https://github.com/nonti/auth-mern-app",
-    demoLink: ""
+    githubLink: "https://github.com/nonti/twitter-clone-virtual-project",
+    demoLink: "https://zaio-nonty-twitter-clone.netlify.app"
   },
   
 ];
